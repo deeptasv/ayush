@@ -1,0 +1,18 @@
+.expert-list-container {
+    text-align: center; /* Center-align the heading */
+  }
+  
+  .expert-list-heading {
+    font-size: 2rem; /* Adjust the font size as needed */
+    margin-bottom: 1rem; /* Space between heading and cards */
+  }
+.expert-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('https://img.manoramayearbook.in/content/dam/yearbook/learn/world/images/2021/mar/national-ayush-mission-1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}

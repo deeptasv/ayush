@@ -1,0 +1,23 @@
+.status-tracker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .stage {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+  }
+  
+  .stage.current {
+    font-weight: bold;
+    color: #fff;
+    background-color: #4caf50; /* Green color for current status */
+  }
+  
+  .stage-separator {
+    margin: 0 10px;
+    font-weight: bold;
+  }

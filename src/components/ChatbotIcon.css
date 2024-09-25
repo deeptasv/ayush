@@ -1,0 +1,47 @@
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .chatbot-icon {
+    background-color: #4a90e2; /* Background color for the icon */
+    border-radius: 50%;
+    padding: 15px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    position: relative; /* Needed for positioning the speech bubble */
+  }
+  
+  .chatbot-speech-bubble {
+    position: absolute;
+    bottom: 100%; /* Position the bubble above the icon */
+    right: 50%; /* Center the bubble horizontally relative to the icon */
+    transform: translateX(50%); /* Center the bubble horizontally */
+    background-color: #333; /* Background color for the speech bubble */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chatbot-speech-bubble::before {
+    content: '';
+    position: absolute;
+    bottom: -10px; /* Position the arrow below the bubble */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent; /* Triangle pointing down */
+  }

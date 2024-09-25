@@ -1,0 +1,43 @@
+.registration-container {
+  background-image: url('https://img.manoramayearbook.in/content/dam/yearbook/learn/world/images/2021/mar/national-ayush-mission-1.jpg'); /* Update with your background image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px;
+  min-height: 100vh; /* Ensures the container covers at least the viewport height */
+  margin-left: 5%;
+  margin-top: 5%;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.registration-container h1 {
+  font-family: 'Georgia', serif; /* Use a more aesthetic font */
+  font-size: 2.5em;
+  color: #4a90e2;
+  z-index: 1; /* Ensure text is above any overlay */
+}
+.about-us {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+.registration-container h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.registration-container .MuiTextField-root {
+  margin: 8px; /* Adjust margin as needed */
+  width: 25ch;
+}
+.registration-container .about-us .MuiButton-root {
+  margin-top: 20px; /* Adds space between text fields and the button */
+}

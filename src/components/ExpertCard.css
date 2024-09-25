@@ -1,0 +1,20 @@
+.expert-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expert-name {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .expert-email, .expert-phone, .expert-expertise {
+    margin: 10px 0;
+    color: #666;
+  }
